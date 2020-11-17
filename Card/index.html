@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Membuat Card dengan CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      /* Menambah jarak dikonten */
+      .container {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+      }
+      .card {
+        box-shadow: 0 4px 8px 0 #888888;
+        width: 300px;
+      }
+      .card-action {
+        text-align: right;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+      .btn-link {
+        text-decoration: none;
+        color: #ffffff;
+        background-color: dodgerblue;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 #888888;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img src="avatar.jpg" alt="Avatar" style="width: 100%" />
+      <div class="container">
+        <h4><b>Arif Nurdiansyah | @codingforbabies</b></h4>
+        <p>Bantuin orang yang mau belajar koding</p>
+        <div class="card-action">
+          <a class="btn-link" href="https://www.instagram.com/codingforbabies/"
+            >Follow @codingforbabies</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
