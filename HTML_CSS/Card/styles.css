@@ -1,0 +1,22 @@
+/* Menambah jarak dikonten */
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 #888888;
+  width: 300px;
+}
+.card-action {
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.btn-link {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: dodgerblue;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 #888888;
+}
